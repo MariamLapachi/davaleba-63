@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 10px;   
+}
+
+input:first-child { 
+    width: 115px;
+    height: 36px;
+    top: 27px;
+    left: 35px;
+    background-color: #FFD43A;
+    border-radius: 10px;
+    position: absolute;
+}
+
+input:nth-child(2) {
+    width: 285px;
+    height: 36px;
+    top: 77px;
+    left: 35px;
+    background-color: #000000;
+    border-radius: 10px;
+    position: absolute;
+}
+
+input:nth-child(3) {
+    width: 336px;
+    height: 36px;
+    top: 127px;
+    left: 35px;
+    background-color: #B43AFF;
+    border-radius: 10px;
+    position: absolute;
+}
+
+input:nth-child(4) {
+    width: 441px;
+    height: 36px;
+    top: 178px;
+    left: 35px;
+    background-color: #E9E9E9;
+    border-radius: 10px;
+    position: absolute;
+}
+
+input:nth-child(5) {
+    width: 559px;
+    height: 36px;
+    top: 229px;
+    left: 35px;
+    background-color: #FFD43A;
+    border-radius: 10px;
+    position: absolute;
+}
+
+input:nth-child(2) {
+    color: white;
+}
+
+input:nth-child(3) {
+    color: white;
+}
+
+input:first-child:hover {
+    background-color: #8CFF98;
+}
+
+input:nth-child(2):hover {
+    background-color: #D3D3D3;
+}
+
+input:nth-child(3):hover {
+    background-color: #FF3AE0;
+}
+
+input:nth-child(4):hover {
+    background-color: #ABABAB;
+    border-radius: 2px;
+}
+
+input:nth-child(5):hover {
+    height: 58px;
+}
